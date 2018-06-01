@@ -1,0 +1,10 @@
+server:
+  ssl:
+    key-store: classpath:ssl/server/server.jks
+    key-password: serverp12
+    trust-store: classpath:ssl/ca/ca.jks
+    trust-store-password: cacajks
+    client-auth: need
+  port: 8443
+
+
